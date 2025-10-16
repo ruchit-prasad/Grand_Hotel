@@ -1,0 +1,166 @@
+/* Full Page Styling */
+.kitchen {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Background Image */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/hotelwebsite-y8vnbg/assets/51m7pj9r76bj/download_(1).jpeg")
+      no-repeat center center/cover;
+    z-index: -1;
+  }
+  
+  /* Gradient Overlay */
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    padding-top: 20px;
+  }
+  
+  /* Centered Navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  /* Content Section */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  /* Button */
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: green;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Featured Dishes Section */
+  .featured-dishes {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 40px 0;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .dish-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+  }
+  
+  .dish {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dish img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  h3 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  .dish p {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .dish-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .price {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .order-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .order-btn:hover {
+    background: darkgreen;
+  }
+  

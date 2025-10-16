@@ -1,0 +1,113 @@
+/* Full Page Styling */
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Background Image */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/hotelwebsite-y8vnbg/assets/51m7pj9r76bj/download_(1).jpeg")
+      no-repeat center center/cover;
+    z-index: -1;
+  }
+  
+  /* Gradient Overlay */
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    padding-top: 20px;
+  }
+  
+  /* Centered Navigation */
+  nav {
+    height: 10px;
+    width: 40%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  /* Main Content */  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+  }
+  
+  /* Button */
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: green;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: darkgreen;
+  }
+  
+  .arrow {
+    font-size: 15px;
+  }
+  .profile-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+    background: #222;
+    padding: 8px 12px;
+    border-radius: 50%;
+    transition: background 0.3s;
+  }
+  
+  .profile-icon:hover {
+    background-color: green;
+  }
+  
+  
